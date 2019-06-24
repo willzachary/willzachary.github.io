@@ -5,19 +5,23 @@
   
 
   
-  <title>Python查询列表内重复值的下标 | GALA</title>
+  <title>Pycharm添加函数说明文档 | GALA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Python查询列表内重复值的下标12345678910111213#将返回seq内所有值为item项的下标$ def listDuplicate(seq, item):    startIndex = -1    strIndexs = []    while True:        try:            strIndex = seq.index(item,startIndex+1)">
+  <meta name="description" content="Pycharm 为函数添加函数文档注释将光标移动到需要添加注释的函数名上后，会在左上角出现一个小灯泡的图标，点击后选择【Insert documentation string stub】，就能自动对函数的参数类型进行添加注释。  如果没有【Insert documentation string stub】选项，需要将File -&amp;gt; Settings -&amp;gt; Build，Execution">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python查询列表内重复值的下标">
-<meta property="og:url" content="https://willzachary.github.io/2019/06/14/List/index.html">
+<meta property="og:title" content="Pycharm添加函数说明文档">
+<meta property="og:url" content="https://willzachary.github.io/2019/06/24/Pycharm添加函数说明文档-2/index.html">
 <meta property="og:site_name" content="GALA">
-<meta property="og:description" content="Python查询列表内重复值的下标12345678910111213#将返回seq内所有值为item项的下标$ def listDuplicate(seq, item):    startIndex = -1    strIndexs = []    while True:        try:            strIndex = seq.index(item,startIndex+1)">
+<meta property="og:description" content="Pycharm 为函数添加函数文档注释将光标移动到需要添加注释的函数名上后，会在左上角出现一个小灯泡的图标，点击后选择【Insert documentation string stub】，就能自动对函数的参数类型进行添加注释。  如果没有【Insert documentation string stub】选项，需要将File -&amp;gt; Settings -&amp;gt; Build，Execution">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-20T06:08:36.481Z">
+<meta property="og:image" content="https://willzachary.github.io/images/pasted-2.png">
+<meta property="og:image" content="https://willzachary.github.io/images/pasted-0.png">
+<meta property="og:image" content="https://willzachary.github.io/images/pasted-1.png">
+<meta property="og:updated_time" content="2019-06-24T02:19:43.154Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python查询列表内重复值的下标">
-<meta name="twitter:description" content="Python查询列表内重复值的下标12345678910111213#将返回seq内所有值为item项的下标$ def listDuplicate(seq, item):    startIndex = -1    strIndexs = []    while True:        try:            strIndex = seq.index(item,startIndex+1)">
+<meta name="twitter:title" content="Pycharm添加函数说明文档">
+<meta name="twitter:description" content="Pycharm 为函数添加函数文档注释将光标移动到需要添加注释的函数名上后，会在左上角出现一个小灯泡的图标，点击后选择【Insert documentation string stub】，就能自动对函数的参数类型进行添加注释。  如果没有【Insert documentation string stub】选项，需要将File -&amp;gt; Settings -&amp;gt; Build，Execution">
+<meta name="twitter:image" content="https://willzachary.github.io/images/pasted-2.png">
   
     <link rel="alternate" href="/atom.xml" title="GALA" type="application/atom+xml">
   
@@ -64,10 +68,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-List" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Pycharm添加函数说明文档-2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/06/14/List/" class="article-date">
-  <time datetime="2019-06-14T03:52:00.000Z" itemprop="datePublished">2019-06-14</time>
+    <a href="/2019/06/24/Pycharm添加函数说明文档-2/" class="article-date">
+  <time datetime="2019-06-24T01:54:06.000Z" itemprop="datePublished">2019-06-24</time>
 </a>
     
   </div>
@@ -78,7 +82,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Python查询列表内重复值的下标
+      Pycharm添加函数说明文档
     </h1>
   
 
@@ -86,13 +90,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Python查询列表内重复值的下标"><a href="#Python查询列表内重复值的下标" class="headerlink" title="Python查询列表内重复值的下标"></a>Python查询列表内重复值的下标</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#将返回seq内所有值为item项的下标</span><br><span class="line">$ def listDuplicate(seq, item):</span><br><span class="line">    startIndex = -1</span><br><span class="line">    strIndexs = []</span><br><span class="line">    while True:</span><br><span class="line">        try:</span><br><span class="line">            strIndex = seq.index(item,startIndex+1)</span><br><span class="line">        except ValueError:</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            strIndexs.append(strIndex)</span><br><span class="line">            startIndex = strIndex</span><br><span class="line">    return strIndexs</span><br></pre></td></tr></table></figure>
-
+        <h3 id="Pycharm-为函数添加函数文档注释"><a href="#Pycharm-为函数添加函数文档注释" class="headerlink" title="Pycharm 为函数添加函数文档注释"></a>Pycharm 为函数添加函数文档注释</h3><p>将光标移动到需要添加注释的函数名上后，会在左上角出现一个小灯泡的图标，点击后选择【Insert documentation string stub】，就能自动对函数的参数类型进行添加注释。</p>
+<p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<p>如果没有【Insert documentation string stub】选项，需要将File -&gt; Settings -&gt; Build，Execution,Deployment -&gt; Python Debugger -&gt; Collect run-time types information for code insight 和 File -&gt; Settings -&gt; Editor -&gt; Smart Keys -&gt; JSON -&gt; Insert type placeholders in the documentation comment stub勾选上。</p>
+<p><img src="/images/pasted-0.png" alt="upload successful"></p>
+<p><img src="/images/pasted-1.png" alt="upload successful"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://willzachary.github.io/2019/06/14/List/" data-id="cjx49m6fw0000h0bh4lfalggd" class="article-share-link">Share</a>
+      <a data-url="https://willzachary.github.io/2019/06/24/Pycharm添加函数说明文档-2/" data-id="cjx9r84sy0002hkbh6wkv27hj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -101,15 +108,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/06/21/Collectl/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Collectl
-        
-      </div>
-    </a>
   
+    <a href="/2019/06/21/Collectl/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Collectl</div>
+    </a>
   
 </nav>
 
